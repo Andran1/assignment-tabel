@@ -1,0 +1,10 @@
+.active {
+  color: white;
+  font-weight: 800;
+}
+
+.navBar {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}

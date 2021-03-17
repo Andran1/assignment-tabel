@@ -1,0 +1,6 @@
+.dateBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}

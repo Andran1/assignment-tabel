@@ -1,0 +1,17 @@
+.task {
+  margin-top: 20px;
+  flex: 1;
+  align-items: center;
+}
+.selected {
+  border: 1px solid #f00 !important ;
+}
+
+.body {
+  flex: 1;
+  margin: 20px;
+}
+.btn_block {
+  display: flex;
+  gap: 10px;
+}
