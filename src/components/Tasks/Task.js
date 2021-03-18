@@ -12,7 +12,7 @@ import { deleteTask,editTask } from "../../store/action";
 
 class Task extends PureComponent {
   handleChange = () => {
-    const { onToggle, data } = this.props;
+    const { onToggle, data } = this.props; 
     onToggle(data._id);
   };
   render() {

@@ -8,6 +8,8 @@ import NotFound from "./components/pages/NotFound/NotFound";
 import NavMenu from "./components/NavMenu/NavMenu";
 import SingleTask from "./components/pages/SingleTask/SingleTask";
 import Spinner from "./components/Spinner/Spinner";
+import Login from './components/pages/Login/Login'
+import Register from './components/pages/Register/Register'
 import { connect } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -45,6 +47,8 @@ function App({ loading, successMessage, errorMessage }) {
           <Route path="/contact" exact component={Contact} />
           <Route path="/task/:taskId" exact component={SingleTask} />
           <Route path="/not-found" component={NotFound} />
+          <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
           <Redirect to="/not-found" />
         </Switch>
       </Router>
