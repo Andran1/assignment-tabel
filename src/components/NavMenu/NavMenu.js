@@ -18,9 +18,6 @@ export default function NavMenu() {
               <NavLink activeClassName={styles.active} exact to="/contact">
                 Contact
               </NavLink>
-              <NavLink  to="/conta">
-                hello
-              </NavLink>
             </Nav>
             <div style={{width:"100px", display:"flex", justifyContent:"space-between",alignItems:"center"}}>
               <NavLink  to="/login">
