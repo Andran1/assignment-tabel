@@ -10,6 +10,7 @@ import SingleTask from "./components/pages/SingleTask/SingleTask";
 import Spinner from "./components/Spinner/Spinner";
 import Login from './components/pages/Login/Login'
 import Register from './components/pages/Register/Register'
+import Nav from './components/nav/nav'
 import { connect } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -40,6 +41,7 @@ function App({ loading, successMessage, errorMessage }) {
     <div style={{backgroundColor:'silver',height:"300vh"}}>
       <Router history={history} >
         <NavMenu />
+        <Nav/>
         <Switch>
           <Route path="/" exact component={ToDo} />
           <Route path="/home" exact component={ToDo} />
